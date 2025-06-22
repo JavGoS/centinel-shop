@@ -22,6 +22,7 @@ docker run --name postgres-dev \
 - **Base de datos inicial:** `tienda`
 - **Puerto expuesto:** `5432`
 
+## 1.1. Abrir en CMD
 --- 
 ```bash
 docker exec -it postgres-dev psql -U postgres
