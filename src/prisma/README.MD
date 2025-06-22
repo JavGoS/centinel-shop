@@ -22,8 +22,10 @@ docker run --name postgres-dev \
 - **Base de datos inicial:** `tienda`
 - **Puerto expuesto:** `5432`
 
----
-
+--- 
+```bash
+docker exec -it postgres-dev psql -U postgres
+```
 ## 2. Configurar Prisma
 
 1. En la raíz de tu proyecto, crea (o edita) el archivo `.env` con la ruta a tu base de datos:
