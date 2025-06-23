@@ -19,7 +19,7 @@ export class ShopController {
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.shopService.findOne(+id);
+    return this.shopService.sumByProducts(+id);
   }
 
   @Patch(':id')
